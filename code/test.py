@@ -6,7 +6,7 @@ req = requests.get("https://theducky.github.io/jSnip-API/API/jSnip.json")
 
 data = req.json()
 
-print(data["while_loop"][0]["snip"])
+print(data["simple_print"][0]["snip"])
 
 print("----------------------------")
 
