@@ -1,0 +1,55 @@
+.footer {  
+    position: fixed;  
+    left: 0px;  
+    bottom: 0px;  
+    right: 0px;
+    height: 46px;
+    width: 100%;  
+    text-align: center;
+    color: black;
+    background-color: #5E81AC; 
+}
+
+body {
+    background-color: #202124;
+    color: #5E81AC;
+    text-align: center;
+    font-family: Ubuntu;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    background: #5E81AC;
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+  
+.glow-button:hover {
+    color: black;
+    box-shadow: 0 5px 15px #5E81AC;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.ver {
+    border-left: 6px solid #5E81AC;
+    height: 495px;
+    position:absolute;
+    left: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+pre {
+    text-align: left;
+}

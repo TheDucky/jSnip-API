@@ -1,0 +1,45 @@
+{
+    "Version":"jSnip.json v1.0.6",
+    "Madeby":"TheDucky",
+
+    "simple_print": [
+        {
+            "snip":"public class Main {\n    public static void main(String[] args) {\n\tSystem.out.println(\"Hello World!\");\n    }\n}"
+        }
+    ],
+
+    "switch_case": [
+        {
+            "snip":"switch(expression) {\n    case x:\n    //code block\n    break;\n\n    case y:\n    //code block\n    break;\n\n    default:\n    //code black\n}",
+            "example":"char swt = 'd';\n\nswitch(swt) {\n\n    case 'd':\n    System.out.println(\"char was = d\");\n    break;\n\n    case 'a':\n    System.out.println(\"char was = a\");\n    break;\n\n    default:\n    System.out.println(\"hmmm, it wasent a or d\");\n}"
+        }
+    ],
+    
+    "do_while": [
+        {
+            "snip":"do {\n    //code block\n}\nwhile(condition);",
+            "example":"int x = 5;\ndo {\n    System.out.println(x);\n    x--;\n}\nwhile(x > 0);"
+        }
+    ],
+
+    "if_else": [
+        {
+            "snip":"if(condition) {\n    //block of code to be exicuted if conditions are true\n}else {\n   //block of code to be exicuted if conditions are false\n}", 
+            "example":"int y = 101;\n\nif(y == 101) {\n    System.out.println(\"y = 101\");\n}else {\n    System.out.println(\"y is not = 101\");\n}"
+        }
+    ],
+
+    "for_loop": [
+        {
+            "snip":"for(statement1; statement2; statement3) {\n    //code black to exicute\n}",
+            "example":"for(int i = 1; i <= 8; i++) {\n    System.out.println(i);\n}"
+        }
+    ],
+
+    "while_loop": [
+        {
+            "snip":"while(condition) {\n    //code black to exicute while conditions are met\n}",
+            "example":"int q = 1;\n\nwhile(q <= 10) {\n    System.out.println(\"q = \" + q);\n    q++;\n}"
+        }
+    ]
+}
